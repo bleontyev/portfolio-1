@@ -14,10 +14,11 @@ https://bootstrap-5.ru/
     <title>Bootstrap</title>
   </head>
   <body>
-    <div class="container">
-      <div class="col-lg-4 col-md-3 col-12" style="background-color: red;"></div>
-      <div class="col-lg-4 col-md-6 col-6" style="background-color: grey;"></div>      
-      <div class="col-lg-4 col-md-3 col-6" style="background-color: gold;"></div>       
+    <!-- При разном разрешении экрана ячейки захватывают разное количество виртуальных колонок. -->
+    <div class="container-fluid">
+      <div class="col-lg-4 col-md-3 col-12" style="background-color: red;">1</div>
+      <div class="col-lg-4 col-md-6 col-6" style="background-color: grey;">2</div>      
+      <div class="col-lg-4 col-md-3 col-6" style="background-color: gold;">3</div>       
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
